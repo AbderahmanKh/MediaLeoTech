@@ -17,7 +17,7 @@ function Hero() {
                                 Startup by your hands
                             </h2>
                             <p className="text-sm md:text-base text-gray-600 mb-4">
-                                Get the latest news about Company.
+                                Get the latest news about Company. Hay Salam
                             </p>
                             <a href="#"
                                 className="bg-transparent hover:bg-yellow-500 text-orange-400 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-600 hover:border-transparent">
