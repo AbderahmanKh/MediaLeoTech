@@ -37,32 +37,46 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ review }) => (
 const reviews: Review[] = [
     {
         id: 1,
-        name: "John Doe",
+        name: "client 1",
         role: "CEO, Tech Corp",
         comment: "Amazing experience working with this team. They delivered beyond our expectations.",
         image: "https://randomuser.me/api/portraits/men/1.jpg"
     },
     {
         id: 2,
-        name: "Jane Smith",
+        name: "client 2",
         role: "Marketing Director",
         comment: "Exceptional service and outstanding results. Highly recommended!",
         image: "https://randomuser.me/api/portraits/women/1.jpg"
     },
     {
         id: 3,
-        name: "Mike Johnson",
+        name: "client 3",
         role: "Product Manager",
         comment: "Professional, efficient, and innovative solutions for our needs.",
         image: "https://randomuser.me/api/portraits/men/2.jpg"
     },
     {
         id: 4,
-        name: "Emily Davis",
+        name: "client 4",
         role: "Software Engineer",
         comment: "Their expertise helped us scale our product efficiently.",
         image: "https://randomuser.me/api/portraits/women/2.jpg"
-    }
+    },
+    {
+        id: 5,
+        name: "client 5",
+        role: "Marketing test",
+        comment: "wp wp service and outstanding results. Highly recommended!",
+        image: "https://randomuser.me/api/portraits/women/4.jpg"
+    },
+    {
+        id: 6,
+        name: "client 6",
+        role: "Marketing test",
+        comment: "wp wp service and outstanding results. Highly recommended!",
+        image: "https://randomuser.me/api/portraits/women/4.jpg"
+    },
 ];
 
 const Reviews: React.FC = () => {

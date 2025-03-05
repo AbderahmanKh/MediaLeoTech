@@ -1,7 +1,14 @@
+import Cards from "./Services/Card"
+import Do from "./Services/Do"
+import Hero from "./Services/Hero"
 
 function Services() {
   return (
-    <div>Services</div>
+    <>
+    <Hero />
+    <Cards />
+    <Do />
+    </>
   )
 }
 
