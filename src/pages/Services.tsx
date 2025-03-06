@@ -1,4 +1,5 @@
 import Cards from "./Services/Card"
+import { ServiceSlider } from "./Services/CardAnim"
 import Do from "./Services/Do"
 import Hero from "./Services/Hero"
 
@@ -7,6 +8,7 @@ function Services() {
     <>
     <Hero />
     <Cards />
+    <ServiceSlider />
     <Do />
     </>
   )
