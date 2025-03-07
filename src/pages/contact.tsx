@@ -1,9 +1,8 @@
+import { ContactPage } from "./Contact/Contact"
 
 function Contact() {
   return (
-    <div>
-      <h1>This is contact section</h1>
-    </div>
+  <ContactPage />
   )
 }
 

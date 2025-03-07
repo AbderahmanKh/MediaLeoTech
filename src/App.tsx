@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Services from './pages/Services';
 import Contact from './pages/contact';
 import News from './pages/blog';
-import Footer from './pages/Footer';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (

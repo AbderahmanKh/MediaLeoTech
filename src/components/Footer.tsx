@@ -11,7 +11,7 @@ const Footer = () => {
           </a>
         
         <span className="block text-sm text-gray-500">
-          © 2025-2026 Media Leo Tech™. All Rights Reserved.
+          © 2025 Media Leo Tech™. All Rights Reserved.
         </span>
   
         <ul className="flex justify-center mt-5 space-x-5">

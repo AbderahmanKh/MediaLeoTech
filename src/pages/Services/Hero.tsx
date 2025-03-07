@@ -15,6 +15,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Hero Content */}
+      
       <div className="relative z-10 flex flex-col justify-center items-center h-full text-center px-4">
         <h1 className="text-5xl font-bold leading-tight mb-4">
           Welcome to Our Awesome Website
