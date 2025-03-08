@@ -4,7 +4,7 @@ import { Button } from "../../components/ui/button";
 export default function Ceo() {
     return (
         <div className="container mx-auto px-4 py-12">
-            <h1 className="text-4xl font-bold text-center mb-12">Our Services</h1>
+            <h1 className="text-4xl font-bold text-center mb-12">CEO OF MEDIA LEO TECH</h1>
 
             {/* CEO Introduction Section */}
             <section className="mb-20">
