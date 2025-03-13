@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Search } from 'lucide-react';
 import { Input } from './ui/input';
-import { Button } from './ui/button';
+import { Button } from '../compon/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs';
 import {
   Accordion,
@@ -35,17 +35,17 @@ function Servc() {
       image: "https://picsum.photos/id/3/800/400",
       keywords: ["SEO", "PPC", "Social Media", "Content Marketing", "Email Marketing"],
       faqs: [
-        { 
-          question: "How long does it take to see results from digital marketing?", 
-          answer: "Results vary depending on the strategy, but typically you can expect to see initial results within 3-6 months for SEO, and much faster for paid advertising campaigns." 
+        {
+          question: "How long does it take to see results from digital marketing?",
+          answer: "Results vary depending on the strategy, but typically you can expect to see initial results within 3-6 months for SEO, and much faster for paid advertising campaigns."
         },
-        { 
-          question: "What digital marketing channels do you focus on?", 
-          answer: "We provide comprehensive services across all major channels including search engines, social media, email, content marketing, and paid advertising." 
+        {
+          question: "What digital marketing channels do you focus on?",
+          answer: "We provide comprehensive services across all major channels including search engines, social media, email, content marketing, and paid advertising."
         },
-        { 
-          question: "How do you measure the success of digital marketing campaigns?", 
-          answer: "We track key performance indicators (KPIs) such as website traffic, conversion rates, engagement metrics, and return on investment (ROI)." 
+        {
+          question: "How do you measure the success of digital marketing campaigns?",
+          answer: "We track key performance indicators (KPIs) such as website traffic, conversion rates, engagement metrics, and return on investment (ROI)."
         }
       ],
       additionalInfo: "Our team of certified digital marketing experts stays up-to-date with the latest trends and algorithm changes to ensure your campaigns remain effective."
@@ -58,17 +58,17 @@ function Servc() {
       image: "https://picsum.photos/id/20/800/400",
       keywords: ["Logo Design", "Brand Strategy", "Visual Identity", "Brand Guidelines", "Rebranding"],
       faqs: [
-        { 
-          question: "What is included in your branding services?", 
-          answer: "Our branding services typically include brand strategy development, logo design, visual identity creation, brand guidelines, messaging framework, and implementation support." 
+        {
+          question: "What is included in your branding services?",
+          answer: "Our branding services typically include brand strategy development, logo design, visual identity creation, brand guidelines, messaging framework, and implementation support."
         },
-        { 
-          question: "How long does the branding process take?", 
-          answer: "A comprehensive branding project usually takes 6-12 weeks, depending on the scope and complexity of the project." 
+        {
+          question: "How long does the branding process take?",
+          answer: "A comprehensive branding project usually takes 6-12 weeks, depending on the scope and complexity of the project."
         },
-        { 
-          question: "Do you help with rebranding existing businesses?", 
-          answer: "Yes, we specialize in helping established businesses refresh their brand while maintaining brand equity and recognition." 
+        {
+          question: "Do you help with rebranding existing businesses?",
+          answer: "Yes, we specialize in helping established businesses refresh their brand while maintaining brand equity and recognition."
         }
       ],
       additionalInfo: "We conduct thorough market research and competitor analysis to ensure your brand occupies a unique position in the market."
@@ -81,17 +81,17 @@ function Servc() {
       image: "https://picsum.photos/id/42/800/400",
       keywords: ["Copywriting", "Blog Posts", "Video Production", "Infographics", "Social Media Content"],
       faqs: [
-        { 
-          question: "What types of content do you create?", 
-          answer: "We create a wide range of content including blog posts, articles, whitepapers, case studies, videos, infographics, social media content, email newsletters, and more." 
+        {
+          question: "What types of content do you create?",
+          answer: "We create a wide range of content including blog posts, articles, whitepapers, case studies, videos, infographics, social media content, email newsletters, and more."
         },
-        { 
-          question: "How do you ensure content is optimized for search engines?", 
-          answer: "We conduct keyword research and follow SEO best practices to ensure your content ranks well in search results while still being engaging for human readers." 
+        {
+          question: "How do you ensure content is optimized for search engines?",
+          answer: "We conduct keyword research and follow SEO best practices to ensure your content ranks well in search results while still being engaging for human readers."
         },
-        { 
-          question: "Can you help develop a content strategy?", 
-          answer: "Yes, we offer content strategy services to help you plan and organize your content efforts for maximum impact and efficiency." 
+        {
+          question: "Can you help develop a content strategy?",
+          answer: "Yes, we offer content strategy services to help you plan and organize your content efforts for maximum impact and efficiency."
         }
       ],
       additionalInfo: "All content is created by professional writers, designers, and videographers with expertise in your industry."
@@ -104,17 +104,17 @@ function Servc() {
       image: "https://picsum.photos/id/60/800/400",
       keywords: ["Social Strategy", "Community Management", "Content Calendar", "Analytics", "Paid Social"],
       faqs: [
-        { 
-          question: "Which social media platforms do you work with?", 
-          answer: "We work with all major platforms including Facebook, Instagram, Twitter, LinkedIn, TikTok, Pinterest, and YouTube, focusing on the ones most relevant to your audience." 
+        {
+          question: "Which social media platforms do you work with?",
+          answer: "We work with all major platforms including Facebook, Instagram, Twitter, LinkedIn, TikTok, Pinterest, and YouTube, focusing on the ones most relevant to your audience."
         },
-        { 
-          question: "How often will you post on my social media accounts?", 
-          answer: "Posting frequency depends on the platform and your strategy, but typically ranges from 3-5 times per week for most platforms, with more frequent posting for Twitter." 
+        {
+          question: "How often will you post on my social media accounts?",
+          answer: "Posting frequency depends on the platform and your strategy, but typically ranges from 3-5 times per week for most platforms, with more frequent posting for Twitter."
         },
-        { 
-          question: "Do you handle social media advertising?", 
-          answer: "Yes, we offer social media advertising services including strategy, ad creation, targeting, and optimization to maximize your ROI." 
+        {
+          question: "Do you handle social media advertising?",
+          answer: "Yes, we offer social media advertising services including strategy, ad creation, targeting, and optimization to maximize your ROI."
         }
       ],
       additionalInfo: "We provide detailed monthly reports on your social media performance, including growth, engagement, and conversion metrics."
@@ -127,17 +127,17 @@ function Servc() {
       image: "https://picsum.photos/id/48/800/400",
       keywords: ["Keyword Research", "On-Page SEO", "Off-Page SEO", "Technical SEO", "Local SEO"],
       faqs: [
-        { 
-          question: "How long does SEO take to show results?", 
-          answer: "SEO is a long-term strategy, and significant results typically take 3-6 months to appear, depending on your industry, competition, and starting point." 
+        {
+          question: "How long does SEO take to show results?",
+          answer: "SEO is a long-term strategy, and significant results typically take 3-6 months to appear, depending on your industry, competition, and starting point."
         },
-        { 
-          question: "What does your SEO service include?", 
-          answer: "Our SEO services include keyword research, on-page optimization, technical SEO, content creation, link building, local SEO (if applicable), and regular performance reporting." 
+        {
+          question: "What does your SEO service include?",
+          answer: "Our SEO services include keyword research, on-page optimization, technical SEO, content creation, link building, local SEO (if applicable), and regular performance reporting."
         },
-        { 
-          question: "Do you guarantee first-page rankings?", 
-          answer: "No reputable SEO company can guarantee specific rankings as search algorithms are constantly changing. We focus on sustainable improvements and measurable business results." 
+        {
+          question: "Do you guarantee first-page rankings?",
+          answer: "No reputable SEO company can guarantee specific rankings as search algorithms are constantly changing. We focus on sustainable improvements and measurable business results."
         }
       ],
       additionalInfo: "We stay up-to-date with the latest algorithm changes and SEO best practices to ensure your website maintains and improves its rankings over time."
@@ -150,17 +150,17 @@ function Servc() {
       image: "https://picsum.photos/id/24/800/400",
       keywords: ["Responsive Design", "UX/UI", "E-commerce", "WordPress", "Custom Development"],
       faqs: [
-        { 
-          question: "How long does it take to build a website?", 
-          answer: "A typical website takes 6-12 weeks to complete, depending on the complexity and number of pages. E-commerce sites and custom web applications may take longer." 
+        {
+          question: "How long does it take to build a website?",
+          answer: "A typical website takes 6-12 weeks to complete, depending on the complexity and number of pages. E-commerce sites and custom web applications may take longer."
         },
-        { 
-          question: "What platforms do you use for website development?", 
-          answer: "We work with various platforms including WordPress, Shopify, and custom solutions depending on your specific needs and requirements." 
+        {
+          question: "What platforms do you use for website development?",
+          answer: "We work with various platforms including WordPress, Shopify, and custom solutions depending on your specific needs and requirements."
         },
-        { 
-          question: "Do you provide website maintenance services?", 
-          answer: "Yes, we offer ongoing maintenance packages to ensure your website remains secure, up-to-date, and performing optimally." 
+        {
+          question: "Do you provide website maintenance services?",
+          answer: "Yes, we offer ongoing maintenance packages to ensure your website remains secure, up-to-date, and performing optimally."
         }
       ],
       additionalInfo: "All our websites are built with SEO best practices in mind and include basic on-page optimization to help improve your search engine visibility."
@@ -175,22 +175,22 @@ function Servc() {
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value.toLowerCase();
     setSearchQuery(query);
-    
+
     if (query.trim() === '') {
       setFilteredServices(services);
       setSelectedService(null);
       return;
     }
-    
+
     // Filter services based on title, description, and keywords
-    const filtered = services.filter(service => 
-      service.title.toLowerCase().includes(query) || 
-      service.shortDescription.toLowerCase().includes(query) || 
+    const filtered = services.filter(service =>
+      service.title.toLowerCase().includes(query) ||
+      service.shortDescription.toLowerCase().includes(query) ||
       service.keywords.some(keyword => keyword.toLowerCase().includes(query))
     );
-    
+
     setFilteredServices(filtered);
-    
+
     // If there's an exact match or only one result, select it automatically
     if (filtered.length === 1) {
       setSelectedService(filtered[0]);
@@ -219,7 +219,7 @@ function Servc() {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Innovative Marketing Solutions for Your Business</h1>
             <p className="text-xl mb-8">Elevate your brand with our comprehensive marketing services tailored to your unique needs.</p>
-            
+
             {/* Search Bar */}
             <div className="relative max-w-xl mx-auto">
               <div className="flex items-center border-2 border-white/20 rounded-lg bg-white/10 backdrop-blur-sm overflow-hidden">
@@ -238,7 +238,7 @@ function Servc() {
                 <div className="absolute mt-2 w-full bg-white rounded-lg shadow-lg text-left text-gray-800 z-10">
                   {filteredServices.length > 0 ? (
                     filteredServices.map((service) => (
-                      <div 
+                      <div
                         key={service.id}
                         className="px-4 py-2 hover:bg-gray-100 cursor-pointer"
                         onClick={() => handleServiceSelect(service)}
@@ -260,14 +260,14 @@ function Servc() {
       {/* Services Section */}
       <section className="container mx-auto px-4 py-16">
         <h2 className="text-3xl font-bold text-center mb-12">Our Marketing Services</h2>
-        
+
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service) => (
             <Card key={service.id} className="overflow-hidden hover:shadow-lg transition-shadow duration-300">
               <div className="h-48 overflow-hidden">
-                <img 
-                  src={service.image} 
-                  alt={service.title} 
+                <img
+                  src={service.image}
+                  alt={service.title}
                   className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
@@ -283,7 +283,9 @@ function Servc() {
                 </div>
               </CardContent>
               <CardFooter>
-                <Button onClick={() => handleServiceSelect(service)}>Learn More</Button>
+                <Button onClick={() => handleServiceSelect(service)}>
+                  Get ready to start with {service.title}
+                </Button>
               </CardFooter>
             </Card>
           ))}
@@ -295,20 +297,20 @@ function Servc() {
         <section id="service-details" className="container mx-auto px-4 py-16 border-t border-gray-200">
           <div className="max-w-4xl mx-auto">
             <h2 className="text-3xl font-bold mb-6">{selectedService.title}</h2>
-            
+
             <div className="mb-8 rounded-lg overflow-hidden">
-              <img 
-                src={selectedService.image} 
-                alt={selectedService.title} 
+              <img
+                src={selectedService.image}
+                alt={selectedService.title}
                 className="w-full h-auto"
               />
             </div>
-            
+
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4">Overview</h3>
               <p className="text-gray-700 leading-relaxed">{selectedService.fullDescription}</p>
             </div>
-            
+
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4">Key Features</h3>
               <div className="flex flex-wrap gap-2">
@@ -317,12 +319,12 @@ function Servc() {
                 ))}
               </div>
             </div>
-            
+
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4">Additional Information</h3>
               <p className="text-gray-700 leading-relaxed">{selectedService.additionalInfo}</p>
             </div>
-            
+
             <div className="mb-8">
               <h3 className="text-xl font-semibold mb-4">Frequently Asked Questions</h3>
               <Accordion type="single" collapsible className="w-full">
@@ -334,13 +336,13 @@ function Servc() {
                 ))}
               </Accordion>
             </div>
-            
-           
+
+
           </div>
         </section>
       )}
 
-      
+
     </div>
   );
 }

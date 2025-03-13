@@ -6,13 +6,17 @@ import Services from './pages/Services';
 import Contact from './pages/contact';
 import News from './pages/blog';
 import Footer from './components/Footer';
+import { WhatsAppButton } from './pages/compon/whatsappBotton';
+import PromoBar from './pages/Services2/PromoBar';
 
 const App: React.FC = () => {
   return (
     <>
     <div className="min-h-screen">
       <Navbar />
+      
       <div >
+        <PromoBar message="Get 10% off on all services." repeatCount={4} />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/services" element={<Services />} />
@@ -21,6 +25,7 @@ const App: React.FC = () => {
         </Routes>
       </div>
     </div>
+    <WhatsAppButton phoneNumber="1234567890" message="Hello, I have a question about your services." />
     <Footer />
     </>
   );
