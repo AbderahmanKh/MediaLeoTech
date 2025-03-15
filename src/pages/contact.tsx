@@ -1,4 +1,4 @@
-import { ContactPage } from "./Contact/Contact"
+import ContactPage from "./Contact/Contact"
 
 function Contact() {
   return (

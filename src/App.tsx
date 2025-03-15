@@ -7,7 +7,6 @@ import Contact from './pages/contact';
 import News from './pages/blog';
 import Footer from './components/Footer';
 import { WhatsAppButton } from './pages/compon/whatsappBotton';
-import PromoBar from './pages/Services2/PromoBar';
 
 const App: React.FC = () => {
   return (

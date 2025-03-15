@@ -29,7 +29,7 @@ const Navbar = () => {
 
   return (
     <>
-            <PromoBar message="Get 10% off on all services." />
+            <PromoBar />
     <nav className={`top-0 w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-lg' : 'bg-white/95 shadow-md'}`}>
       <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
